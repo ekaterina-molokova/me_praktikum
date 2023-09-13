@@ -1,82 +1,110 @@
 .body {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: none;
-  text-align: center;
+  height: 100%;
   font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: normal;
   color: white;
-}
-
-.header {
-  color: black;
-}
-
-.main_wrapper {
-  display: flex;
-  flex-direction: row;
-  overflow: auto;
-}
-
-.main {
-  width: 50%;
   background-image: linear-gradient(to top, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%);
   background-repeat: no-repeat;
 }
-  
-.main_title {
-  margin: 0;
-  padding: 40px 0 0;
-  font-family: William, serif;
-  font-weight: normal;
-  font-size: 80px;
-  font-style: italic;
+.header {
+  margin: auto;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 74px;
   text-transform: uppercase;
+  color: #28a9ae;
+  text-align: center;
+  text-shadow: 3px 5px 0 #6c4f63;
 }
-  
-.main_avatar {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin: 40px 0 0;
+
+.main {
+  display: flex;
+  flex-direction: column;
 }
-  
-.text {
-  padding: 40px 0;
-  color: white;
-  font-family: Inter, sans-serif;
-  font-weight: normal;
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle {
+  text-align: center;
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
 }
 
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 20px;
+}
+
 .link {
   text-decoration: none;
-  color:#6c4f63;
+  color: #28a9ae;
 }
 
-.landing {
-  width: 50%;
-  padding-top: 10%;
-  background-image: url(https://code.s3.yandex.net/web-code/images/freetrack/03/cover.png);
-  background-position: center;
-  background-size: cover;
+.link:hover {
+  opacity: 0.5;
 }
 
-.wrapper {
-  width: 100%;
-  height: 100%;
-  background-color: rgb(95 13 238 / 0.5);
+.content {
+  background-color: transparent;
 }
 
-.title {
-  margin: 0;
-  padding: 0;
-  color: white;
-  font-family: Inter, sans-serif;
-  font-size: 74px;
+.cards_holder {
+  background-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  width: 35vw;
+  border: 2px solid  #432c39;;
+  box-shadow: 5px 5px 0  #432c39;
+  margin: 10px auto;
+  padding: 25px 25px 30px;
+  color: #432c39;
+}
+
+.card-title {
+  margin-bottom: 10px;
   font-weight: 800;
+  font-size: 31px;
+  text-align: center;
   text-transform: uppercase;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+.card-image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  height: 20vh;
+  background-color: transparent;
+}
+
+.footer-author {
+  margin: auto;
+  color: white;
+  font-size: 25px;
+  font-weight: 800;
 }
