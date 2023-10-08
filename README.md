@@ -1,2 +1,3 @@
 # HTML, CSS, JavaScript
-Tasks from the introductory module of the "Frontend Developer" course from Yandex.Practicum with my own exercising and adjustment.
+Tasks from the introductory module of the "Frontend Developer" course from Yandex.Practicum with my own exercising and adjustment:
+https://practicum.yandex.ru/shared/cHJvamVjdFVybD1odHRwcyUzQSUyRiUyRmNvZGUuczMueWFuZGV4Lm5ldCUyRnNoYXJlZF9zb2x1dGlvbnMlMkZmcm9udGVuZC1kZXZlbG9wZXIlMkY1MTE4ZWQ1Yy03MGYxLTRlYzgtODUzMS00MGVmZGQxYjI0YzclMkZiNzc2NWI3MjBkNWU4NmM3YzkyMjZhNjg2NGQ4NzA3MSZzbHVnPWZyb250ZW5kLWRldmVsb3BlciZpbWFnZVVybD0/
